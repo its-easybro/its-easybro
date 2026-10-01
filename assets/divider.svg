@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="40" viewBox="0 0 1200 40">
+  <style>
+    .p{animation:p 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    @keyframes p{0%,100%{opacity:.5;transform:scale(.85) rotate(0)}50%{opacity:1;transform:scale(1.1) rotate(45deg)}}
+  </style>
+  <defs><linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#E8C27A" stop-opacity="0"/><stop offset=".5" stop-color="#E8C27A" stop-opacity=".7"/><stop offset="1" stop-color="#E8C27A" stop-opacity="0"/></linearGradient></defs>
+  <rect x="100" y="19.5" width="1000" height="1" fill="url(#l)"/>
+  <g class="p"><path class="" d="M600 12 L608 20 L600 28 L592 20 Z" fill="none"/><path d="M600 12 L608 20 L600 28 L592 20Z" fill="none" stroke="#E8C27A"/><path class="" d="M600 17 L603 20 L600 23 L597 20 Z" fill="#E8C27A"/></g>
+  <path class="" d="M560 17.5 L562.5 20 L560 22.5 L557.5 20 Z" fill="#E8C27A"/><path class="" d="M640 17.5 L642.5 20 L640 22.5 L637.5 20 Z" fill="#E8C27A"/>
+</svg>
